@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>Hearts On Fire</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <link href="assets/css/originalmenu.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="assets/js/modernizr.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+	<!--
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+	-->
+
+<!-- MOBILE NAVIGATION -->
+	<link rel="stylesheet" href="assets/css/slicknav.css" />
+	<script src="assets/js/jquery.slicknav.min.js"></script>
+
+
+<!-- ==============================FONT SECTION=============================== -->
+<!-- FLOWTYPE RESPONSIVE FONTS -->
+	<script src="assets/js/flowtype.js"></script>
+<!-- 	CUFON FONTS -->
+	<script type="text/javascript" src="assets/js/cufon-yui.js"></script>
+					<!-- HOF SUPPLIED SCRIPT, NOT WORKING FOR ME -->
+<!-- <script type="text/javascript" src="assets/js/cufon.js"></script> -->
+					<!-- TESTING FONT -->
+<!-- <script type="text/javascript" src="assets/js/Bamboo_Brisk_400.font.js"></script> -->
+					<!-- MY GENERATED CUFON SCRIPT USING AVENIR NEXT PRO -->
+	<script type="text/javascript" src="assets/js/Avenir_Next_LT_Pro_400-Avenir_Next_LT_Pro_700-Avenir_Next_LT_Pro_italic_400-Avenir_Next_LT_Pro_italic_700.font.js"></script>
+					<!-- CUFON CLASS AND ID REPLACMENTS -->
+	<script type="text/javascript">
+		Cufon.replace('.carousel-caption');
+		Cufon.replace('#headerlogotext');
+		Cufon.replace('#headertext');
+	</script>
+<!-- SCRIPT TO MAKE CUFON WORK IN CONJUNCTION WITH FLOWTYPE -->
+<script type="text/javascript">
+jQuery(window).bind('resize', (function() {
+  var timer;
+  return function() {
+    clearTimeout(timer);
+    timer = setTimeout(function() {
+      Cufon.refresh();
+    }, 50); 
+  };
+})());
+</script>
+<!-- FLOWTYPE STYLES AND POSITIONING -->
+	<link rel="stylesheet" href="assets/css/flowtypestyles.css" />
+<!-- ==============================END FONT SECTION=============================== -->
+
+
+
+<style>
+#footer {
+	position: fixed;
+	bottom: 24px;
+	height: 130px;
+}
+.headerlogo {
+	width:33%;
+}
+
+#footermobile {
+	padding: 20px 0px 20px 0px;
+}
+
+.botpadding20 form {
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.botpadding20 input {
+	width:175px;
+	height:35px;
+	float: left;
+    font-size: 1.5em;
+    margin-left: 20px;
+    text-align: left;
+
+}
+
+.socialicons {
+	margin-bottom:20px;
+}
+
+.botpadding20 button {
+opacity: .65; /* layer alpha */
+border: 1px solid #b7b7b7; /* stroke */
+background-color: #000; /* layer fill content */
+-moz-box-shadow: 0 1px 0 rgba(255,255,255,.36); /* drop shadow */
+-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.36); /* drop shadow */
+box-shadow: 0 1px 0 rgba(255,255,255,.36); /* drop shadow */
+background-image: -moz-linear-gradient(bottom, rgba(202,202,202,.98) 0%, rgba(201,201,201,.98) 49.51%, rgba(213,213,213,.98) 51.22%, rgba(221,221,221,.98) 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, rgba(202,202,202,.98) 0%, rgba(201,201,201,.98) 49.51%, rgba(213,213,213,.98) 51.22%, rgba(221,221,221,.98) 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, rgba(202,202,202,.98) 0%, rgba(201,201,201,.98) 49.51%, rgba(213,213,213,.98) 51.22%, rgba(221,221,221,.98) 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, rgba(202,202,202,.98) 0%, rgba(201,201,201,.98) 49.51%, rgba(213,213,213,.98) 51.22%, rgba(221,221,221,.98) 100%); /* gradient overlay */
+
+}
+
+.logo {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#headertext {
+	position: absolute;
+	top:0px;
+}
+
+#headertext p {
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase; 
+}
+
+/*==================== MEDIA QUERIES FOR NAVIGATION BARS======================= */
+
+#mobileonlymenu {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.small {
+		display: none !important;
+	}
+}
+
+@media (max-width: 769px) {
+	.large {
+		display: none !important;
+	}
+}	
+
+@media (max-width: 1260px) {
+	/* #menu is the original menu */
+	
+	.slicknav_menu {
+		display:block;
+	}
+	#originaldesktopmenu {
+		display: none;
+	}
+	#collapsingFooter {
+		display: none !important;
+	}
+	#footer {
+		display: none !important;
+	}
+/*
+		.sixthblock {
+		padding-bottom: 140px;
+	}
+*/
+
+}
+
+@media (min-width: 1261px) {
+	.slicknav_menu {
+		display:none;
+	}
+	#footermobile {
+		display: none;
+	}
+			.sixthblock {
+		padding-bottom: 140px;
+	}
+
+}
+/*==================== END MEDIA QUERIES FOR NAVIGATION BARS======================= */
+</style>
+
+</head>
+
+
+<body itemscope itemtype="http://schema.org/WebPage">
+ 
+
+
+<!-- ==============================ORIGINAL NAVIGATION WITH ORIGINAL IDs AND CLASSES================================ -->
+<div id="originaldesktopmenu">
+<form method="post" action="/" id="mainform" style="text-align:center;">
+
+
+<div id="header">
+    <div id="obiContainer" style="float:left; position:absolute; left:10px; display:none;">
+       <div class="obititle cufon"></div>
+     </div>
+    
+    <div id="headerTopNav">
+        <div class="headerInnerDiv">
+            <div id="header-middle">
+        
+            </div>
+            <div id="header-right">
+                
+
+<div class="search-box">
+    <gcse:searchbox-only resultsUrl="/search-results.aspx" newWindow="false" queryParameterName="searchStr">
+</div>
+                <div id="headerRibbondiv">
+                    <div id="ctl10_HeaderMegaNav1_ctl01_controlWrapper" class="whiteLinks"><a class="whiteLinks" href="/about/customer-service/email-sign-up.aspx">Email Sign-up</a><span class="sepChar">|</span><a href="http://blog.heartsonfire.com/">HOF Girl Blog</a><span class="sepChar">|</span><a href="https://store.heartsonfire.com/account.aspx">My Account</a><span class="sepChar">|</span><a class="colorbox" href="/wishlist.aspx?sc_device=popup">Wish List</a><span class="sepChar">|</span><a class="colorbox" href="/compare.aspx?sc_device=popup">Compare</a><span class="sepChar">|</span><a href="/about/customer-service.aspx">Customer Service</a><span class="sepChar">|</span><a href="https://store.heartsonfire.com/shoppingcart.aspx">Shopping Bag</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="headerTitle">
+        <div class="headerInnerDiv">
+            <div id="headerlogotext" class="logo">
+                <a id="ctl10_HeaderMegaNav1_hlLogoLink" href="http://www.heartsonfire.com">
+                    <p>Hearts on Fire</p>
+                </a>
+            </div>
+
+<!-- =========================================================================================== -->
+
+<div id="navContainer">      
+    <div id="navCenter">        
+        
+<div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1" class="RadMenu RadMenu_TopNav">
+	<ul class="rmRootGroup rmShadows rmHorizontal">
+		<li class="rmItem rmFirst"><a href="/diamond-jewelry.aspx" class="rmLink rmRootLink"><span class="rmText">Diamond Jewelry</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate" style="width:625px;"><div class="rmText">
+					<div class="wrapper">
+						<div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i0_i0_ctl01_controlWrapper"><div class="megaNavSmallWidth TextSize10pt marginLeft40 marginTop10 marginBottom00 ws_nav">
+							<a href="/shop-jewelry/necklaces.aspx"><img title="Ila Pendant Necklaces" data-src="/~/media/Images/Mega-Nav-Images/Diamond Jewelry/DiamondNecklaces.png" src="" alt="Ila Pendant Necklaces" style="height:129px;width:129px;" /></a><span class="imgTitleB">Diamond Necklaces</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt marginTop10 marginBottom00 ws_nav">
+							<a href="/shop-jewelry/rings.aspx"><img title="Right Hand Rings" data-src="/~/media/Images/Mega-Nav-Images/Diamond Jewelry/DiamondRings.png" src="" alt="Right Hand Rings" style="height:129px;width:129px;" /></a><span class="imgTitleB">Diamond Rings</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt marginTop10 marginBottom00 ws_nav">
+							<a href="/shop-jewelry/earrings.aspx"><img title="Copley Circle Earrings" data-src="/~/media/Images/Mega-Nav-Images/Diamond Jewelry/DiamondEarrings.png" src="" alt="Copley Circle Earrings" style="height:129px;width:129px;" /></a><span class="imgTitleB">Diamond Earrings</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt marginTop10 marginBottom00 ws_nav">
+							<a href="/shop-jewelry/bracelets.aspx"><img title="Copley Cuff" data-src="/~/media/Images/Mega-Nav-Images/Diamond Jewelry/DiamondBracelets.png" src="" alt="Copley Cuff" style="height:129px;width:129px;" /></a><span class="imgTitleB">Diamond Bracelets</span>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt">
+							<p><a href="http://chat.heartsonfire.com/chat/chatstart.aspx?domain=www.heartsonfire.com" title="Chat Live with a Perfection Stylist" target="_blank"><strong>chat live</strong></a>&nbsp;or call our&nbsp;<a href="/about/customer-service/perfection-stylist.aspx" title="Perfection Stylist"><strong>perfection stylist</strong></a> at <strong>1.877.PERFECT</strong> (1.877.737.3328)</p>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace marginBottom10 TextSize10pt">
+							<p><a href="http://blog.heartsonfire.com/" title="HOF Girl Blog" target="_blank"><strong>hof girl blog</strong></a>&nbsp;- diamond guru and fashion trendspotter.</p>
+						</div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i0_i0_ctl01_DiamondJewelry6_ctl00_controlWrapper" class="marginLeft20 padRight10 megaNavMedWidth"><div class="leftalign capitalized purpleLinks purpleText smlTitleText bold avenirhvy megaNavNormalWidth marginBottom00 marginTop10">
+							<a href="/designer-collections/about-the-collections.aspx">Collections</a>
+						</div><div class="Inline FloatLeft tinyTitle blackText purpleTitles leftalign blackLinks boldLinks arrowBullets gridTinyWidth_XHeight TextSize10pt marginTop00 megaNavMedWidth">
+							<ul>
+    <li><a href="/shop-jewelry/aerial.aspx">NEW! The Aerial Collection</a></li>
+    <li><a href="/shop-jewelry/lorelei.aspx">The&nbsp;Lorelei Collection</a>&nbsp; </li>
+    <li><a href="/shop-jewelry/atlantico.aspx">The&nbsp;Atlantico Collection</a>&nbsp; </li>
+    <li><a href="/shop-jewelry/copley.aspx">The Copley Collection</a> </li>
+    <li><a href="/shop-jewelry/illa.aspx">The Illa Collection</a> </li>
+    <li><a href="/designer-collections/about-ilaria-lanzoni.aspx">Our Designer&nbsp;</a> </li>
+    <li><a href="/designer-collections/ilarias-inspiration.aspx">Ilaria's Inspirations</a> </li>
+</ul>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i0_i0_ctl01_DiamondJewelry7_ctl00_controlWrapper" class="borderSeperatorLeft borderSeperatorRight paddingLR10 megaNavSmallWidth"><div class="leftalign capitalized purpleLinks purpleText smlTitleText marginTop10 bold avenirhvy marginBottom00 megaNavNormalWidth">
+							<a href="/guidance.aspx">Guidance</a>
+						</div><div class="Inline FloatLeft tinyTitle blackText purpleTitles leftalign blackLinks boldLinks arrowBullets gridTinyWidth_XHeight TextSize10pt megaNavSmallWidth marginTop00">
+							<ul>
+    <li><a href="/guidance/fashion-tips.aspx">Fashion Tips</a></li>
+    <li><a href="/guidance/guide-for-him.aspx">Tips for Him</a></li>
+    <li><a href="/our-brand-ambassadors.aspx">Our Brand Ambassadors</a></li>
+    <li><a href="/guidance/caring-for-your-diamond.aspx">Care</a></li>
+    <li><a href="/about/customer-service/frequently-asked-questions.aspx">FAQs</a>&nbsp;</li>
+</ul>
+						</div></div><div class="padRight10 marginTop10 marginLeft10">
+							<a><img title="Diamond Studs in Gift Box" data-src="/~/media/Images/Mega-Nav-Images/Diamond Jewelry/Gifts_Occasions.png" src="" alt="Diamond Studs in Gift Box" style="height:69px;width:85px;" /></a>
+						</div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i0_i0_ctl01_DiamondJewelry9_ctl00_controlWrapper" class="megaNavMedWidth marginLeft20"><div class="leftalign capitalized purpleLinks purpleText smlTitleText marginTop10 bold avenirhvy megaNavMedWidth marginBottom00">
+							<a href="/gifts-and-occasions.aspx">Gifts and Occasions</a>
+						</div><div class="Inline FloatLeft tinyTitle blackText purpleTitles blackLinks leftalign boldLinks marginLeft10 megaNavMedWidth arrowBullets gridTinyWidth_XHeight TextSize10pt marginTop00">
+							<ul>
+    <li><a href="/shop-jewelry/graduation-gifts.aspx">Graduation</a> </li>
+    <li><a href="/shop-jewelry/anniversary.aspx">Anniversary</a>&nbsp; </li>
+    <li><a href="/shop-jewelry/birthday.aspx">Birthday</a>&nbsp; </li>
+    <li><a href="/shop-jewelry/birth-of-a-child.aspx">Birth of a Child</a></li>
+</ul>
+						</div></div></div>
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="/shop-jewelry/rings/engagement-rings.aspx" class="rmLink rmRootLink"><span class="rmText">Engagement Rings</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate" style="width:745px;"><div class="rmText">
+					<div class="wrapper">
+						<div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i1_i0_ctl01_controlWrapper"><div class="megaNavSmallWidth TextSize10pt marginLeft40 ws_nav">
+							<a href="/shop-jewelry/rings/engagement-rings.aspx"><img title="Stack of Engagement Rings" data-src="/~/media/Images/Mega-Nav-Images/Diamond Engagement/All_DERs.png" src="" alt="Stack of Engagement Rings" style="height:129px;width:129px;" /></a><span class="imgTitleB">All Engagement Rings</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt ws_nav">
+							<a href="/shop-jewelry/rings/engagement-rings/solitaire.aspx"><img title="Solitaire" data-src="/~/media/Images/Mega-Nav-Images/Diamond Engagement/Solitaire.png" src="" alt="Solitaire" style="height:129px;width:129px;" /></a><span class="imgTitleB">Solitaire</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt ws_nav">
+							<a href="/shop-jewelry/rings/engagement-rings/halo.aspx"><img title="Transcend Engagement Ring" data-src="/~/media/Images/Mega-Nav-Images/Diamond Engagement/Halo.png" src="" alt="Transcend Engagement Ring" style="height:129px;width:129px;" /></a><span class="imgTitleB">Halo</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt ws_nav">
+							<a href="/shop-jewelry/rings/engagement-rings/pave.aspx"><img title="Pave" data-src="/~/media/Images/Mega-Nav-Images/Diamond Engagement/Pave.png" src="" alt="Pave" style="height:129px;width:129px;" /></a><span class="imgTitleB">Pave</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt ws_nav">
+							<a href="/shop-jewelry/rings/engagement-rings/sidestone.aspx"><img title="Sidestone" data-src="/~/media/Images/Mega-Nav-Images/Diamond Engagement/Sidestone.jpg" src="" alt="Sidestone" style="height:129px;width:129px;" /></a><span class="imgTitleB">Sidestone</span>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt">
+							<p><a href="http://chat.heartsonfire.com/chat/chatstart.aspx?domain=www.heartsonfire.com" title="Chat Live with a Perfection Stylist" target="_blank"><strong>chat live</strong></a>&nbsp;or call our&nbsp;<a href="/about/customer-service/perfection-stylist.aspx" title="Perfection Stylist"><strong>perfection stylist</strong></a> at <strong>1.877.PERFECT</strong> (1.877.737.3328)</p>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround marginBottom10 TextSize10pt">
+							<p><a href="http://blog.heartsonfire.com/" title="HOF Girl Blog" target="_blank"><strong>hof girl blog</strong></a>&nbsp;- diamond guru and fashion trendspotter.</p>
+						</div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i1_i0_ctl01_Engagement_Rings7_ctl00_controlWrapper" class="megaNavSmallWidth marginBottom00 ReducedWhiteSpace"><a class="containerItem" href="/guidance/guide-for-her.aspx"><img title="Stack of Wedding Bands" data-src="/~/media/Images/Mega-Nav-Images/Diamond Engagement/Guidance_Brides.png" src="" alt="Stack of Wedding Bands" style="height:95px;width:129px;" /></a></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i1_i0_ctl01_Engagement_Rings8_ctl00_controlWrapper" class="borderSeperatorRight megaNavLargeWidth marginBottom00"><div class="leftalign capitalized purpleLinks purpleText smlTitleText marginTop10 bold avenirhvy megaNavNormalWidth marginBottom00">
+							<a href="/guidance/guide-for-her.aspx">Guide for Her</a>
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets purpleTitles blackLinks blackText boldLinks TextSize10pt marginLeft10 megaNavLargeWidth marginTop00">
+							<ul>
+    <li><a href="/guidance/guide-for-her/finding-the-perfect-engagement-ring.aspx">Finding the Perfect Engagement Ring</a> </li>
+    <li><a href="/guidance/guide-for-her/dropping-a-hint.aspx">Dropping a Hint</a> </li>
+    <li><a href="/about/customer-service/perfection-stylist.aspx">Help from a Perfection Stylist</a> </li>
+    <li><a href="/guidance/guide-for-her.aspx">Read more ...</a> </li>
+</ul>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i1_i0_ctl01_Engagement_Rings9_ctl00_controlWrapper" class="megaNavSmallWidth marginTop10 marginBottom00 ReducedWhiteSpace"><a class="containerItem" href="/guidance/guide-for-him.aspx"><img title="Stack of Men&#39;s Wedding Bands" data-src="/~/media/Images/Mega-Nav-Images/Diamond Engagement/Guidance_Grooms.png" src="" alt="Stack of Men&#39;s Wedding Bands" style="height:81px;width:129px;" /></a></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i1_i0_ctl01_Engagement_Rings10_ctl00_controlWrapper" class="megaNavSmallWidth marginBottom00"><div class="leftalign capitalized purpleLinks purpleText smlTitleText marginTop10 bold avenirhvy megaNavNormalWidth marginBottom00">
+							<a href="/guidance/guide-for-him.aspx">Guide for Him</a>
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets purpleTitles megaNavNormalWidth blackLinks blackText boldLinks TextSize10pt marginTop00">
+							<ul>
+    <li><a href="/guidance/guide-for-him/terms-to-know.aspx">Engagement Ring Terms to Know</a></li>
+    <li><a href="/guidance/guide-for-him/ring-sizing-tips-and-tricks.aspx">Ring Sizing Tips &amp; Tricks</a></li>
+    <li><a href="/guidance/guide-for-him/how-much-to-spend.aspx">How Much Should I Spend?</a></li>
+    <li><a href="/guidance/guide-for-him.aspx">Read more ...</a></li>
+</ul>
+						</div></div></div>
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="/wedding-rings-and-bands.aspx" class="rmLink rmRootLink"><span class="rmText">Wedding Rings and Bands</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate" style="width:556px;"><div class="rmText">
+					<div class="wrapper">
+						<div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i2_i0_ctl01_controlWrapper"><div class="megaNavSmallWidth FloatLeft TextSize10pt marginLeft10 marginBottom00 ws_nav">
+							<a href="/shop-jewelry/rings/wedding-bands.aspx"><img title="Wedding Bands" data-src="/~/media/Images/Mega-Nav-Images/Bridal and Weddings/WeddingBands.jpg" src="" alt="Wedding Bands" style="height:129px;width:129px;" /></a><span class="imgTitleB">Wedding Bands</span>
+						</div><div class="megaNavSmallWidth FloatLeft TextSize10pt marginLeft10 marginBottom00 ws_nav">
+							<a href="/shop-jewelry/rings/mens.aspx"><img title="Mens Bands" data-src="/~/media/Images/Mega-Nav-Images/Bridal and Weddings/MensBands.png" src="" alt="Mens Bands" style="height:129px;width:129px;" /></a><span class="imgTitleB">Men's Bands</span>
+						</div><a class="FloatLeft megaNavSmallWidth marginTop10 marginBottom00 marginLeft10" href="/wedding-rings-and-bands/anniversary-bands.aspx"><img title="Anniversary Celebration Ideas" data-src="/~/media/Images/Mega-Nav-Images/Bridal and Weddings/MegaNav-AnniversaryIdeas.jpg" src="" alt="Anniversary Celebration Ideas" style="height:140px;width:249px;" /></a><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt">
+							<p><a href="http://chat.heartsonfire.com/chat/chatstart.aspx?domain=www.heartsonfire.com" title="Chat Live with a Perfection Stylist" target="_blank"><strong>chat live</strong></a>&nbsp;or call our&nbsp;<a href="/about/customer-service/perfection-stylist.aspx" title="Perfection Stylist"><strong>perfection stylist</strong></a> at <strong>1.877.PERFECT</strong> (1.877.737.3328)</p>
+						</div><div class="centeralign capitalized blackText purpleLinks lightGrayBackGround ReducedWhiteSpace marginBottom10 TextSize10pt FullWidth">
+							<p><a href="http://blog.heartsonfire.com/" title="HOF Girl Blog" target="_blank"><strong>hof girl blog</strong></a>&nbsp;- diamond guru and fashion trendspotter.</p>
+						</div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i2_i0_ctl01_Wedding_Rings_and_Bands5_ctl00_controlWrapper" class="borderSeperatorRight marginLeft20 megaNavLargeWidth"><div class="leftalign capitalized purpleLinks purpleText smlTitleText marginTop10 bold avenirhvy megaNavNormalWidth marginBottom00">
+							<a href="/guidance/guide-for-her.aspx">Guide for Her</a>
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets purpleTitles padRight10 blackLinks blackText boldLinks TextSize10pt megaNavNormalWidth marginTop00 marginBottom20">
+							<ul>
+    <li><a href="/guidance/guide-for-her/choosing-a-wedding-band.aspx">Choosing a Wedding Band</a></li>
+    <li><a href="/guidance/guide-for-her/when-to-buy-the-wedding-band-womens.aspx">When to Buy Your Wedding Band</a>&nbsp;</li>
+    <li><a href="/guidance/guide-for-her/wedding-timeline.aspx">Monthly Wedding Checklist</a></li>
+    <li><a href="/guidance/guide-for-her.aspx">More ...</a>&nbsp;</li>
+</ul>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i2_i0_ctl01_Wedding_Rings_and_Bands6_ctl00_controlWrapper" class="megaNavNormalWidth marginLeft20"><div class="leftalign capitalized purpleLinks purpleText smlTitleText marginTop10 bold avenirhvy megaNavNormalWidth marginBottom00">
+							<a href="/guidance/guide-for-him.aspx">Guide for Him</a>
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets purpleTitles blackLinks blackText boldLinks TextSize10pt megaNavNormalWidth marginTop00 marginBottom20">
+							<ul>
+    <li><a href="/guidance/guide-for-him/insuring-your-ring.aspx">Insuring Your Ring</a></li>
+    <li><a href="/guidance/guide-for-him/when-to-buy-the-wedding-band-mens.aspx">When to Buy the Wedding Band</a></li>
+    <li><a href="/guidance/guide-for-him/questions-to-ask-your-bride.aspx">Questions to Ask Your Bride to Be</a></li>
+    <li><a href="/guidance/guide-for-him.aspx">More ...</a></li>
+</ul>
+						</div></div></div>
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="/designer-collections.aspx" class="rmLink rmRootLink"><span class="rmText">Designer Collections</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate" style="width:745px;"><div class="rmText">
+					<div class="wrapper">
+						<div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i3_i0_ctl01_controlWrapper"><div class="megaNavSmallWidth TextSize10pt marginLeft40 ws_nav">
+							<a href="/shop-jewelry/aerial.aspx"><img title="Aerial Collection" data-src="/~/media/Images/Mega-Nav-Images/Designer Collections/Aerial.jpg" src="" alt="Aerial Collection" style="height:129px;width:129px;" /></a><span class="imgTitleB">Aerial</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt ws_nav">
+							<a href="/shop-jewelry/atlantico.aspx"><img title="Atlantico Collection" data-src="/~/media/Images/Mega-Nav-Images/Designer Collections/Atlantico.jpg" src="" alt="Atlantico Collection" style="height:129px;width:129px;" /></a><span class="imgTitleB">Atlantico</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt ws_nav">
+							<a href="/shop-jewelry/copley.aspx"><img title="Copley Collection" data-src="/~/media/Images/Mega-Nav-Images/Designer Collections/Copley.jpg" src="" alt="Copley Collection" style="height:129px;width:129px;" /></a><span class="imgTitleB">Copley</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt ws_nav">
+							<a href="/shop-jewelry/illa.aspx"><img title="Illa Collection" data-src="/~/media/Images/Mega-Nav-Images/Designer Collections/Illa.jpg" src="" alt="Illa Collection" style="height:129px;width:129px;" /></a><span class="imgTitleB">Illa</span>
+						</div><div class="megaNavSmallWidth marginLeft10 TextSize10pt ws_nav">
+							<a href="/shop-jewelry/lorelei.aspx"><img title="Lorelei Collection" data-src="/~/media/Images/Mega-Nav-Images/Designer Collections/Lorelei.jpg" src="" alt="Lorelei Collection" style="height:129px;width:129px;" /></a><span class="imgTitleB">Lorelei</span>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt">
+							<p><a href="http://chat.heartsonfire.com/chat/chatstart.aspx?domain=www.heartsonfire.com" title="Chat Live with a Perfection Stylist" target="_blank"><strong>chat live</strong></a>&nbsp;or call our&nbsp;<a href="/about/customer-service/perfection-stylist.aspx" title="Perfection Stylist"><strong>perfection stylist</strong></a> at <strong>1.877.PERFECT</strong> (1.877.737.3328)</p>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround TextSize10pt marginBottom10">
+							<p><a href="http://blog.heartsonfire.com/" title="HOF Girl Blog" target="_blank"><strong>hof girl blog</strong></a>&nbsp;- diamond guru and fashion trendspotter.</p>
+						</div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i3_i0_ctl01_Designer_Collections7_ctl00_controlWrapper" class="megaNavMedWidth marginBottom00 marginLeft40"><div class="marginTop10 marginTop00 marginBottom00 leftalign capitalized purpleLinks purpleText smlTitleText bold avenirhvy megaNavMedWidth">
+							<a href="/designer-collections/about-ilaria-lanzoni.aspx">Ilaria Lanzoni</a>
+						</div><div class="gridTinyWidth_XHeight marginTop00 tinyTitle leftalign arrowBullets purpleTitles padRight10 blackLinks blackText boldLinks TextSize10pt megaNavMedWidth marginBottom20">
+							<ul>
+    <li><a href="/designer-collections/about-ilaria-lanzoni.aspx">Learn about Ilaria</a>&nbsp; </li>
+    <li><a href="/designer-collections/design-process.aspx">Behind the Design Process</a></li>
+</ul>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i3_i0_ctl01_Designer_Collections8_ctl00_controlWrapper" class="megaNavMedWidth marginBottom00 marginLeft20"><div class="marginTop00 leftalign capitalized purpleLinks purpleText smlTitleText bold avenirhvy marginBottom00 megaNavMedWidth">
+							<a href="/press-and-events.aspx">PR</a>
+						</div><div class="gridTinyWidth_XHeight tinyTitle marginTop00 leftalign arrowBullets purpleTitles blackLinks blackText boldLinks TextSize10pt marginLeft10 megaNavSmallWidth">
+							<ul>
+    <li><a href="/press-and-events.aspx">See all the press around the world</a></li>
+</ul>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i3_i0_ctl01_Designer_Collections9_ctl00_controlWrapper" class="megaNavMedWidth marginBottom00 marginLeft20"><div class="marginTop00 leftalign capitalized purpleLinks purpleText smlTitleText bold avenirhvy megaNavMedWidth marginBottom00">
+							<a href="/designer-collections/ilarias-inspiration.aspx">Inspiration</a>
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets purpleTitles blackLinks blackText boldLinks TextSize10pt megaNavMedWidth marginTop00">
+							<ul>
+    <li><a href="/designer-collections/ilarias-inspiration.aspx">Ilaria's Inspiration</a></li>
+    <li><a href="http://pinterest.com/heartsonfireco">See the Inspiration Boards on Pinterest</a></li>
+    <li><a href="http://instagram.com/ilarialanzoni">Follow Ilaria on Instagram</a></li>
+</ul>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i3_i0_ctl01_Designer_Collections10_ctl00_controlWrapper" class="megaNavMedWidth marginBottom00 marginLeft20"><div class="marginTop00 leftalign capitalized purpleLinks purpleText smlTitleText bold avenirhvy megaNavMedWidth marginBottom00">
+							<a href="/media-library.aspx">Media</a>
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets purpleTitles blackLinks blackText boldLinks TextSize10pt megaNavMedWidth marginTop00">
+							<ul>
+    <li><a href="/media-library/sitting-down-with-ilaria-lanzoni.aspx">Sitting down with Ilaria</a></li>
+    <li><a href="/media-library/ilaria-illa-collection.aspx">Illa Collection</a></li>
+    <li><a href="/media-library/ilaria-copley-collection.aspx">Copley Collection</a></li>
+    <li><a href="/media-library/ilaria-atlantico-collection.aspx">Atlantico Collection</a></li>
+    <li><a href="/media-library/ilaria-lorelei-collection.aspx">Lorelei Collection</a></li>
+</ul>
+						</div></div></div>
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="/guidance.aspx" class="rmLink rmRootLink"><span class="rmText">Diamond Guide</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate" style="width:550px;"><div class="rmText">
+					<div class="wrapper">
+						<div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i4_i0_ctl01_controlWrapper"><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i4_i0_ctl01_Diamond_Guide0_ctl00_controlWrapper" class="megaNavMedWidth"><div class="marginLeft10">
+							<a><img title="Hearts On Fire Diamond Guide" data-src="/~/media/Images/Mega-Nav-Images/Diamond Guide/HOF_DiamondGuide.png" src="" alt="Hearts On Fire Diamond Guide" style="height:129px;width:129px;" /></a>
+						</div></div><div class="leftalign megaNavMedWidth capitalized purpleLinks purpleText smlTitleText marginTop10 bold avenirhvy marginBottom00">
+							<a href="/guidance/we-promise-the-worlds-most-perfectly-cut-diamond.aspx">Why Our Cut Creates The Best Value</a>
+						</div><div class="leftalign megaNavMedWidth capitalized purpleLinks purpleText smlTitleText marginTop10 marginLeft10 bold avenirhvy marginBottom00">
+							<a href="/guidance/understanding-quality.aspx">Understanding Quality</a>
+						</div><div class="leftalign arrowBullets megaNavMedWidth purpleTitles blackLinks blackText boldLinks gridTinyWidth_XHeight TextSize10pt FloatLeft tinyTitle marginTop00">
+							<ul>
+    <li><a href="/guidance/we-promise-the-worlds-most-perfectly-cut-diamond/rare-and-unique-quality-of-our-diamonds.aspx">Rare &amp; Unique</a></li>
+    <li><a href="/guidance/we-promise-the-worlds-most-perfectly-cut-diamond/highest manufacturing standards.aspx">Highest Standards&nbsp;</a></li>
+    <li><a href="/guidance/we-promise-the-worlds-most-perfectly-cut-diamond/cutting-formula.aspx">Proprietary Cutting Formula</a></li>
+    <li><a href="/guidance/we-promise-the-worlds-most-perfectly-cut-diamond/phenomenon-of-light.aspx">Phenomenon of Light</a></li>
+</ul>
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets purpleTitles megaNavMedWidth blackLinks blackText boldLinks marginLeft10 TextSize10pt marginTop00">
+							<ul>
+    <li><a href="/guidance/understanding-quality/sensational.aspx">Sensational Quality</a></li>
+    <!-- li><a href="/404.aspx?item=web%3a%7b3CA31F79-AF41-4FF1-960B-86CF064124BC%7d%40en" originalAttribute="href" originalPath="/404.aspx?item=web%3a%7b3CA31F79-AF41-4FF1-960B-86CF064124BC%7d%40en">Select Quality</a></li -->
+    <li><a href="/guidance/understanding-quality/cut-quality.aspx">Cut</a></li>
+    <li><a href="/guidance/understanding-quality/color.aspx">Color</a></li>
+    <li><a href="/guidance/understanding-quality/clarity.aspx">Clarity</a></li>
+    <li><a href="/guidance/understanding-quality/carat-weight.aspx">Carat Weight</a></li>
+</ul>
+						</div><div class="leftalign megaNavMedWidth capitalized purpleLinks purpleText smlTitleText bold avenirhvy marginBottom00 marginTop10">
+							<p style="margin: 0in 0in 0pt;"><a href="/history-of-diamonds.aspx">History of Diamonds</a><br />
+<br />
+<a href="/guidance/diamond-dictionary.aspx">Diamond Dictionary</a><br />
+<br />
+<a href="/guidance/words-from-our-master-cutter.aspx">Words From Our Master Cutter</a></p>
+						</div><div class="leftalign megaNavMedWidth capitalized purpleLinks purpleText smlTitleText marginTop10 marginLeft10 bold avenirhvy marginBottom00">
+							<a href="/guidance/caring-for-your-diamond.aspx">Caring For Your Purchase</a>
+						</div><div class="leftalign arrowBullets megaNavMedWidth blackLinks blackText boldLinks gridTinyWidth_XHeight marginLeft20 TextSize10pt marginTop00">
+							<ul>
+    <li><a href="/guidance/caring-for-your-diamond/insuring-your-diamond.aspx">Insurance</a></li>
+    <li><a href="/guidance/caring-for-your-diamond/recommendation-for-cleaning-your-diamond.aspx">Cleaning</a></li>
+</ul>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt marginTop10">
+							<p><a href="http://chat.heartsonfire.com/chat/chatstart.aspx?domain=www.heartsonfire.com" title="Chat Live with a Perfection Stylist" target="_blank"><strong>chat live</strong></a>&nbsp;or call our&nbsp;<a href="/about/customer-service/perfection-stylist.aspx" title="Perfection Stylist"><strong>perfection stylist</strong></a> at <strong>1.877.PERFECT</strong> (1.877.737.3328)</p>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt marginBottom10">
+							<p><a href="http://blog.heartsonfire.com/" title="HOF Girl Blog" target="_blank"><strong>hof girl blog</strong></a>&nbsp;- diamond guru and fashion trendspotter.</p>
+						</div></div>
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="/where-to-buy.aspx" class="rmLink rmRootLink"><span class="rmText">Where To Buy</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate" style="width:600px;"><div class="rmText">
+					<div class="wrapper">
+						<div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i5_i0_ctl01_controlWrapper"><a class="marginBottom20 megaNavSmallWidth" href="/locations.aspx"><img title="Search Locations" data-src="/~/media/Images/Mega-Nav-Images/Where to Buy/SearchLocations.png" src="" alt="Search Locations" style="height:129px;width:129px;" /></a><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i5_i0_ctl01_WhereToBuy1_ctl00_controlWrapper" class="marginBottom20 megaNavMedWidth"><div class="leftalign megaNavMedWidth capitalized purpleLinks purpleText smlTitleText marginTop10 marginLeft10 bold avenirhvy">
+							<p style="margin: 0in 0in 0pt;"><a href="/locations.aspx">Search Locations</a></p>
+						</div></div><div class="marginBottom20 megaNavSmallWidth">
+							<a><img title="Community Table" data-src="/~/media/Images/Mega-Nav-Images/Where to Buy/HOF-Stores.png" src="" alt="Community Table" style="height:129px;width:129px;" /></a>
+						</div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i5_i0_ctl01_WhereToBuy3_ctl00_controlWrapper" class="marginBottom20 megaNavMedWidth"><div class="leftalign capitalized purpleLinks purpleText smlTitleText marginTop10 marginLeft10 megaNavNormalWidth bold avenirhvy marginBottom00">
+							<p style="margin: 0in 0in 0pt;"><a href="/where-to-buy.aspx">Hearts On Fire Stores</a></p>
+						</div><div class="leftalign arrowBullets blackLinks blackText boldLinks gridTinyWidth_XHeight marginLeft20 tinyTitle TextSize10pt megaNavMedWidth marginTop00">
+							<ul>
+    <li><a href="/where-to-buy/our-new-retail-concept.aspx">New Retail Concept</a> </li>
+    <li><a href="/where-to-buy/our-new-retail-concept/retail-store-locations.aspx">Where are the HOF Stores?</a> </li>
+    <li><a href="/locations/las-vegas.aspx">Las Vegas</a> </li>
+    <li><a href="/locations/king-of-prussia.aspx">King of Prussia, PA</a>&nbsp; </li>
+</ul>
+						</div></div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt">
+							<p><a href="http://chat.heartsonfire.com/chat/chatstart.aspx?domain=www.heartsonfire.com" title="Chat with a Perfection Stylist" target="_blank"><strong>chat live</strong></a>&nbsp;or call our&nbsp;<a href="/about/customer-service/perfection-stylist.aspx" title="Perfection Stylist" target="_blank"><strong>perfection stylist</strong></a> at <strong>1.877.PERFECT</strong> (1.877.737.3328)</p>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt marginBottom10">
+							<p><a href="http://blog.heartsonfire.com/" title="HOF Girl Blog" target="_blank"><strong>hof girl blog</strong></a>&nbsp;- diamond guru and fashion trendspotter.</p>
+						</div></div>
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem rmLast"><a href="/about.aspx" class="rmLink rmRootLink"><span class="rmText">About</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate" style="width:535px;"><div class="rmText">
+					<div class="wrapper">
+						<div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i6_i0_ctl01_controlWrapper"><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i6_i0_ctl01_About0_ctl00_controlWrapper" class="megaNavMedWidth"><div class="marginLeft10">
+							<a><img title="Loose Diamond" data-src="/~/media/Images/Mega-Nav-Images/About/AboutDia.png" src="" alt="Loose Diamond" style="height:129px;width:129px;" /></a>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i6_i0_ctl01_About1_ctl00_controlWrapper"><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i6_i0_ctl01_About1_ctl00_TopRight0_ctl00_controlWrapper" class="marginLeft10 megaNavMedWidth"><div class="leftalign capitalized purpleLinks purpleText smlTitleText marginTop10 bold avenirhvy megaNavMedWidth marginBottom00">
+							<a href="/about/hearts-on-fire-difference.aspx">Hearts On Fire Difference</a>
+						</div><div class="leftalign arrowBullets megaNavMedWidth purpleTitles blackLinks blackText boldLinks gridTinyWidth_XHeight FloatLeft TextSize10pt marginTop00">
+							<ul>
+    <li><a href="/about/hearts-on-fire-difference/our-diamonds.aspx">Our Diamond</a>&nbsp;</li>
+    <li><a href="/about/hearts-on-fire-difference/our-craft.aspx">Our Craft</a>&nbsp;</li>
+    <li><a href="/about/hearts-on-fire-difference/our-promise.aspx">Our Promise to You </a></li>
+    <li><a href="/guidance/we-promise-the-worlds-most-perfectly-cut-diamond.aspx">The Best Value</a>&nbsp;
+    <div></div>
+    </li>
+</ul>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i6_i0_ctl01_About1_ctl00_TopRight1_ctl00_controlWrapper" class="marginLeft10 megaNavSmallWidth"><div class="leftalign megaNavMedWidth capitalized purpleLinks purpleText smlTitleText marginTop10 marginLeft10 bold avenirhvy marginBottom00">
+							<a href="/about/customer-service.aspx">Customer Service</a>
+
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets purpleTitles megaNavMedWidth blackLinks blackText boldLinks marginLeft10 FloatLeft TextSize10pt marginTop00">
+							<ul>
+    <li><a href="/about/customer-service/perfection-stylist.aspx">Perfection Stylist</a>&nbsp; </li>
+    <li><a href="/about/customer-service/payment-plan.aspx">Payment Plan</a>&nbsp; </li>
+    <li><a href="/about/customer-service/returns-shipping.aspx">Shipping and Returns</a> </li>
+    <li><a href="/about/customer-service/frequently-asked-questions.aspx">FAQs</a> </li>
+    <li><a href="/about/customer-service/contact-us.aspx">Contact Us</a></li>
+    <li><a href="/download-our-app.aspx">Download Mobile App</a></li>
+    <li><a href="/about/customer-service.aspx">More</a> </li>
+</ul>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i6_i0_ctl01_About1_ctl00_TopRight2_ctl00_controlWrapper" class="marginLeft10 megaNavMedWidth leftalign marginBottom10"><div class="leftalign megaNavMedWidth capitalized purpleLinks purpleText smlTitleText plainLinks bold FloatLeft marginTop10 avenirhvy marginBottom00">
+							<a href="/about/learn-about-us.aspx">Learn About Us</a>
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets blackText blackLinks boldLinks megaNavMedWidth TextSize10pt FloatLeft marginBottom20 marginTop00">
+							<ul>
+    <li><a href="/about/learn-about-us/our-story.aspx">Company</a> </li>
+    <li><a href="/about/learn-about-us/our-history.aspx">History</a> </li>
+    <li><a href="/about/learn-about-us/careers.aspx">Careers</a></li>
+    <li><a href="/about/learn-about-us/hof-philanthropy.aspx">HOF Philanthropy</a></li>
+</ul>
+						</div></div><div id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_i6_i0_ctl01_About1_ctl00_TopRight3_ctl00_controlWrapper" class="marginLeft10 megaNavSmallWidth marginBottom10"><div class="leftalign megaNavMedWidth capitalized purpleLinks purpleText smlTitleText plainLinks bold FloatLeft marginTop10 marginLeft10 avenirhvy marginBottom00">
+							MEDIA
+						</div><div class="gridTinyWidth_XHeight tinyTitle leftalign arrowBullets blackText blackLinks boldLinks megaNavMedWidth TextSize10pt FloatLeft marginLeft10 marginTop00 marginBottom20">
+							<ul>
+    <li><a href="/press-and-events.aspx">Press &amp; Events</a>&nbsp; </li>
+    <li><a href="/media-library.aspx">Media Library</a></li>
+    <li><a href="/our-advertising.aspx">Advertising</a>&nbsp;</li>
+</ul>
+						</div></div></div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt marginTop20">
+							<p><a href="http://chat.heartsonfire.com/chat/chatstart.aspx?domain=www.heartsonfire.com" title="Chat with a Perfection Stylist" target="_blank"><strong>chat live</strong></a>&nbsp;or call our&nbsp;<a href="/about/customer-service/perfection-stylist.aspx" title="Perfection Stylist"><strong>perfection stylist</strong></a> at <strong>1.877.PERFECT</strong> (1.877.737.3328)</p>
+						</div><div class="centeralign capitalized FullWidth blackText purpleLinks lightGrayBackGround ReducedWhiteSpace TextSize10pt marginBottom10">
+							<p><a href="http://blog.heartsonfire.com/" title="HOF Girl Blog" target="_blank"><strong>hof girl blog</strong></a>&nbsp;- diamond guru and fashion trendspotter.</p>
+						</div></div>
+					</div>
+				</div></li>
+			</ul>
+		</div></li>
+	</ul><input id="ctl10_HeaderMegaNav1_ctl02_RadMenu1_ClientState" name="ctl10_HeaderMegaNav1_ctl02_RadMenu1_ClientState" type="hidden" />
+</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+                
+</div>
+</div>
+<!-- =============================================================END ORIGINAL NAVIGATION=================================== -->
+
+
+
+
+
+
+<ul id="mobileonlymenu">
+	<li><a href="#">Diamond Jewelry</a></li>
+	<li><a href="#">Engagement Rings</a></li>
+	<li><a href="#">Wedding Rings and Bands</a></li>
+	<li><a href="#">Designer Collections</a></li>
+	<li><a href="#">Diamond Guide</a></li>
+	<li><a href="#">Where To Buy</a></li>
+	<li><a href="#">About</a></li>
+</ul>
+
+<!--
+<div id="headertext" class="col-xs-12">
+	<p>Hearts on Fire</p>
+</div>
+-->
+
+
+
+<!--
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="#">BUTTON</a>
+            </div>
+          </div>
+-->
+
+	 
+      <div class="carousel-inner firstblock">
+        <div class="item active">
+	           <div class="carousel-caption diamonds textoverlay textoverlay1 col-xs-5 col-sm-5 col-md-5 col-lg-5 responsivetext">
+			        <p>The World&rsquo;s <br/>Most Perfectly <br />Cut Diamond&reg;</p>
+	           </div>
+          <img src="assets/img/without-text/1.jpg" alt="1" >
+        </div>
+      </div>
+      
+	 <div class="clearfix"></div>
+	 
+      <div class="carousel-inner secondblock large">
+        <div class="item active">
+        	   <div class="modern carousel-caption textoverlay textoverlay1 col-xs-2 responsivetext">
+			        <p>Modern&nbsp;Trends. Timeless&nbsp;Designs.</p>
+	           </div>
+	           	<div id="Ilaria" class="carousel-caption col-xs-2">
+				        <p>Designer Ilaria Lanzoni shares the inspiration behind her Lorel. <br /><em><a href="">Watch Now</a></em></p>
+				</div>
+	           	<div id="Aerial" class="carousel-caption col-xs-2">
+				        <p>Introducing&nbsp;the Aerial&nbsp;Collection.</p>
+				</div>
+	           	<div id="ShopLink" class="carousel-caption col-xs-2">
+				        <p><a href="#">Shop now. ▶</a> </p>
+				</div>
+          <img src="assets/img/without-text/23.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div class="carousel-inner secondblock-m small">
+        <div class="item active center-block">
+        	   <div class="modern-m carousel-caption textoverlay textoverlay1 col-xs-2 responsivetext">
+			        <p>Modern&nbsp;Trends. Timeless&nbsp;Designs.</p>
+	           </div>
+	           	<div id="Ilaria-m" class="carousel-caption col-xs-5">
+				        <p>Designer Ilaria Lanzoni shares the inspiration behind her Lorel. <br /><em><a href="">Watch Now</a></em></p>
+				</div>
+          <img  src="assets/img/without-text/2.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div class="carousel-inner small">
+        <div class="item active">
+	           	<div id="Aerial-m" class="carousel-caption col-xs-2">
+				        <p>Introducing&nbsp;the Aerial&nbsp;Collection.</p>
+				</div>
+	           	<div id="ShopLink-m" class="carousel-caption col-xs-5">
+				        <p><a href="#">Shop now. ▶</a> </p>
+				</div>
+          <img src="assets/img/without-text/3.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      
+      <div class="carousel-inner thirdblock large">
+        <div class="item active">
+        	   <div id="reddress" class="carousel-caption textoverlay textoverlay1 col-xs-2 responsivetext">
+			        <p>The&nbsp;Red&nbsp;Dress Collection Fashion&nbsp;Show.</p>
+	           </div>
+	           	<div id="sponsored" class="carousel-caption col-xs-3">
+				        <p>Sponsored by Hearts On Fire</p>
+				</div>
+          <img src="assets/img/without-text/4.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div class="carousel-inner thirdblock-m small">
+        <div class="item active">
+        	   <div id="reddress-m" class="carousel-caption textoverlay textoverlay1 col-xs-2 responsivetext">
+			        <p>The&nbsp;Red&nbsp;Dress Collection&nbsp;Fashion&nbsp;Show.</p>
+	           </div>
+	           	<div id="sponsored-m" class="carousel-caption col-xs-12">
+				        <p>Sponsored by Hearts On Fire</p>
+				</div>
+          <img src="assets/img/without-text/4mobile.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+<!--
+      <div class="carousel-inner small">
+        <div class="item active">
+          <img src="assets/img/4text.png" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+-->
+      
+      
+      <div class="carousel-inner fourthblock large">
+        <div class="item active">
+        	   <div id="copley" class="carousel-caption textoverlay textoverlay1 col-xs-2 responsivetext">
+			        <p>The&nbsp;Copley&nbsp;Collection</p>
+	           </div>
+	           	<div id="copleytext" class="carousel-caption col-xs-6">
+				        <p>The Hearts On Fire Copley Collection, designed to reflect Boston&rsquo;s historic beauty, was born from the inspiration new Italian designer Ilaria Lanzoni felt during her first few weeks living in Boston. The city&rsquo;s stunning terraces and European inspired ironwork architecture mesmerized Ilaria, who went on to create the Copley Collection with a focus on the true perfection and artistry of diamond jewelry.</p>
+				</div>
+        	   <div id="plan" class="carousel-caption textoverlay textoverlay1 col-xs-2 responsivetext">
+			        <p>Planning&nbsp;a summer&nbsp;wedding?</p>
+	           </div>
+	           	<div id="trends" class="carousel-caption col-xs-2">
+				     <p><a href="#">See the trends that inspire us</a></p>
+				</div>
+          <img src="assets/img/without-text/56.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div class="carousel-inner fourthblock-m small">
+        <div class="item active">
+        	   <div id="copley-m" class="carousel-caption textoverlay textoverlay1 col-xs-2 responsivetext">
+			        <p>The&nbsp;Copley&nbsp;Collection</p>
+	           </div>
+	           	<div id="copleytext-m" class="carousel-caption col-xs-11">
+				        <p>The Hearts On Fire Copley Collection, designed to reflect Boston&rsquo;s historic beauty, was born from the inspiration new Italian designer Ilaria Lanzoni felt during her first few weeks living in Boston. The city&rsquo;s stunning terraces and European inspired ironwork architecture mesmerized Ilaria, who went on to create the Copley Collection with a focus on the true perfection and artistry of diamond jewelry.</p>
+				</div>
+          <img src="assets/img/without-text/5.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div class="carousel-inner fifthblock-m small">
+        <div class="item active">
+        	   <div id="plan-m" class="carousel-caption textoverlay textoverlay1 col-xs-5 responsivetext">
+			        <p>Planning&nbsp;a summer&nbsp;wedding?</p>
+	           </div>
+	           	<div id="trends-m" class="carousel-caption col-xs-5">
+				     <p><a href="#">See the trends that inspire us</a></p>
+				</div>
+          <img src="assets/img/without-text/6.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      
+      <div class="carousel-inner sixthblock large">
+        <div class="item active">
+				<div id="morena" class="carousel-caption textoverlay textoverlay1 col-xs-3 responsivetext">
+			        <p>Morena Baccarin</p>
+				</div>
+	           	<div id="officialface" class="carousel-caption col-xs-5">
+				     <p>The official face of Hearts On Fire</p>
+				</div>
+          <img src="assets/img/without-text/7.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div class="carousel-inner sixthblock-m small">
+        <div class="item active">
+				<div id="morena-m" class="carousel-caption textoverlay textoverlay1 col-xs-6 responsivetext">
+			        <p>Morena Baccarin</p>
+				</div>
+	           	<div id="officialface-m" class="carousel-caption col-xs-5">
+				     <p>The official face of Hearts On Fire</p>
+				</div>
+          <img src="assets/img/without-text/7mobile.jpg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+<!--
+      <div class="carousel-inner small">
+        <div class="item active">
+          <img src="assets/img/jpg/7text.jpeg" alt="1" >
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+-->
+		      	
+      
+	 
+
+
+
+
+
+
+
+
+
+
+
+            
+<!-- =============================================================BEGIN ORIGINAL FOOTER=================================== -->
+<div id="footer" class=" lightGrayBackGround" itemscope itemtype="http://schema.org/WPFooter">
+    <div id="defaultFooter">
+        <div class="FullWidth plainLinks lightGrayBackGround greyLinks greyText">
+            <div class="FullWidth marginTopBottom20">
+                <img title="The Worlds Most Perfectly Cut Diamond" alt="The Worlds Most Perfectly Cut Diamond" class="footer_TWMPCD" src="assets/img/placeHolder.png"/>
+            </div>
+            <div class="FullWidth plainLinks lightGrayBackGround greyLinks greyText">
+                <div id="ctl11_cbCountryList" class="RadComboBox RadComboBox_Default" style="width:160px;">
+	<table summary="combobox" style="border-width:0;border-collapse:collapse;">
+		<tr class="rcbReadOnly">
+			<td style="width:100%;" class="rcbInputCell rcbInputCellLeft"><input name="ctl11$cbCountryList" type="text" class="rcbInput" id="ctl11_cbCountryList_Input" value="United States" readonly="readonly" /></td>
+			<td class="rcbArrowCell rcbArrowCellRight"><a id="ctl11_cbCountryList_Arrow" style="overflow: hidden;display: block;position: relative;outline: none;">select</a></td>
+		</tr>
+	</table>
+	<!-- 2011.1.315.35 --><div class="rcbSlide" style="z-index:6000;"><div id="ctl11_cbCountryList_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_Default " style="display:none;"><div class="rcbScroll rcbWidth" style="width:100%;"><ul class="rcbList" style="list-style:none;margin:0;padding:0;zoom:1;"><li class="rcbItem ">Antigua</li><li class="rcbItem ">Aruba</li><li class="rcbItem ">Australia</li><li class="rcbItem ">Bahamas</li><li class="rcbItem ">Barbados</li><li class="rcbItem ">Bermuda</li><li class="rcbItem ">Canada</li><li class="rcbItem ">Cayman Islands</li><li class="rcbItem ">Costa Rica</li><li class="rcbItem ">Grenada</li><li class="rcbItem ">Ireland</li><li class="rcbItem ">Italy</li><li class="rcbItem ">Jamaica</li><li class="rcbItem ">Japan</li><li class="rcbItem ">Malaysia</li><li class="rcbItem ">Mexico</li><li class="rcbItem ">New Zealand</li><li class="rcbItem ">Philippines</li><li class="rcbItem ">Puerto Rico</li><li class="rcbItem ">Singapore</li><li class="rcbItem ">St Maarten</li><li class="rcbItem ">Taiwan</li><li class="rcbItem ">Thailand</li><li class="rcbItem ">Turks and Caicos Islands</li><li class="rcbItem ">United Kingdom</li><li class="rcbItem ">United States</li><li class="rcbItem ">US Virgin Islands</li></ul></div></div></div><input id="ctl11_cbCountryList_ClientState" name="ctl11_cbCountryList_ClientState" type="hidden" />
+</div>
+
+                <div id="ctl11_FooterItemRibbons1_ctl00_controlWrapper" class="Inline"><span class="bold Inline paddingLR05">1.877.PERFECT (1.877.737.3328)</span><div id="ctl11_FooterItemRibbons1_ctl00_FooterItemRibbon1_ctl00_controlWrapper" class="Inline paddingLR05 padRight10"><a href="/about.aspx">|&nbsp;&nbsp;About</a><span class="sepChar">|</span><a href="http://www.heartsonfire.com.tw">中文</a><span class="sepChar">|</span><a href="/press-and-events.aspx">Press & Events</a><span class="sepChar">|</span><a href="/about/learn-about-us/careers.aspx">Careers</a><span class="sepChar">|</span><a href="/terms-and-conditions.aspx">Terms & Conditions</a><span class="sepChar">|</span><a href="/privacy-policy.aspx">Privacy Policy</a><span class="sepChar">|</span><a href="https://lifeline.heartsonfire.com/">Retailer Login</a><span class="sepChar">|</span><a href="/about/customer-service/contact-us.aspx">Contact Us</a><span class="sepChar">|</span><a href="/sitemap.aspx">Sitemap</a></div></div>
+<div style="display:inline;">
+    <div id="ctl11_FooterItemRibbons1_ctl01_pnlEmailSignUp" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl11_FooterItemRibbons1_ctl01_btnSubmit&#39;)" style="display:inline;">
+	
+      <input name="ctl11$FooterItemRibbons1$ctl01$txtEmail" type="text" value="Email Sign-up" id="ctl11_FooterItemRibbons1_ctl01_txtEmail" class="emailSignUpBox" autocomplete="off" onfocus="if(this.value==&#39;Email Sign-up&#39;) this.value=&#39;&#39;; this.style.color=&#39;#000&#39;;" onblur="if(this.value==&#39;&#39;) {this.value=&#39;Email Sign-up&#39;; this.style.color=&#39;Silver&#39;;}" />
+      <div style="display:inline; top: 7px; position: relative;">
+        <input type="image" name="ctl11$FooterItemRibbons1$ctl01$btnSubmit" id="ctl11_FooterItemRibbons1_ctl01_btnSubmit" class="ImageEmailSignup" src="assets/img/btn-submit-sm.jpg" alt="Submit" />
+      </div>
+    
+</div>
+</div>
+<div id="subFooter">
+    <div id="ctl11_FooterItemRibbons1_ctl02_controlWrapper">
+    	<ul class="social-icons">
+    		<li><a href="http://www.facebook.com/heartsonfire" target="_blank" title="Facebook"><img class="social_facebook" src="assets/img/social-media/FB.png" /></a></li>
+    		<li><a href="http://www.twitter.com/heartsonfire" target="_blank" title="Twitter"><img class="social_twitter" src="assets/img/social-media/twitter.png" /></a></li>
+    		<li><a href="http://pinterest.com/heartsonfireco/" target="_blank" title="Pinterest"><img class="social_pinterest" src="assets/img/social-media/pinterest.png" /></a></li>
+    		<li><a href="http://www.youtube.com/user/HeartsOnFireDiamond" target="_blank" title="YouTube"><img class="social_youtube" src="assets/img/social-media/youtube.png" /></a></li>
+    		<li><a href="http://blog.heartsonfire.com/" target="_blank" title="Tumblr"><img class="social_tumblr" src="assets/img/social-media/tumblr.png" /></a></li>
+    		<li><a href="http://www.secretsoflife.com/" target="_blank" title="Blogger"><img class="social_blogger" src="assets/img/social-media/blogger.png" /></a></li>
+    		<li><a href="http://www.google.com/+heartsonfire" target="_blank" title="Google Plus"><img class="social_googlePlus" src="assets/img/social-media/gplus.png" /></a></li>
+    		<li><a href="http://instagram.com/heartsonfireco#" target="_blank" title=""><img class="social_instagram" src="assets/img/social-media/insta.png" /></a></li>
+    	</ul>
+    	<div style="display: inline-block; padding-left:10px; padding-top:2px;" class="fb-like" data-href="http://www.facebook.com/heartsonfire" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DIVIDER BETWEEN FOOTER AND ACCORDION FOOTER -->
+
+<div id="collapsingFooter" class="large">  
+    <dl class="accordion">
+   
+    <dt></dt>
+    <dd style="display:none;"><div id="floatingToolBar_baRt_content" class="headerInnerDiv">
+
+</div></dd>
+
+    <dt>
+        <div class="footerHeader">
+            <div class="headerInnerDiv" id="headerRecent">
+                <div style="float:left;">
+                    <img id="floatingToolBar_imgArrow" class="imgArrow" trackID="recentViewHeader" toggle="/images/ClickToClose_purple.png" collapsed="true" src="images/ClickToExpand_purple.png" alt="Click to expand" style="vertical-align: bottom" />
+                    <div class="recent_header avenir capitalized blackText ReducedWhiteSpace" style="vertical-align: middle">RECENTLY VIEWED</div>
+                </div>
+                <div class="avenir capitalized blackText purpleLinks ReducedWhiteSpace recentContact">
+                    <span style="vertical-align:bottom;">
+                    <a class="chatLink" href="javascript:void(0);"><strong>chat live</strong></a>
+                    or call our <a id="floatingToolBar_hlPS" href="/about/customer-service/perfection-stylist.aspx"><strong>perfection stylist</strong></a> at <strong>1.877.PERFECT</strong> (1.877.737.3328)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </dt>
+    <dd style="display:none;">
+        <div class="headerInnerDiv">
+            
+            <div class="recentItem" style="border:none; border-left: 1px solid black; height: 95px; width: 1px; margin-left: 1px;"></div>
+            <div class="recentItem" style="border:none;" ><a href="https://store.heartsonfire.com/shoppingcart.aspx" id="floatingToolBar_shoppingBagLink"><img class="footer_shoppingBag" src="/images/placeHolder.png" alt="Goto Shopping Bag" /></a> Shopping Bag</div>
+        </div>
+    </dd>
+
+    </dl>
+
+    <div id="floatingToolBar_scriptArea" style="display: none;"></div>
+</div> 
+</form>
+<!-- ===================================END ORIGINAL DESKTOP FOOTER==================================== -->
+
+
+
+
+	<!-- *****************************************************************************************************************
+	 MOBILE FOOTER
+	 ***************************************************************************************************************** -->
+	 <div id="footermobile">
+<!-- 	 	<div class="container"> -->
+		 	<div class="row">
+		 	
+		 		<div class="col-xs-12 botpadding20">
+					<form class="form-inline">
+					    <input type="text" class="input-large" placeholder="Email"/>
+					  <button type="submit" class="btn">Sign in</button>
+					</form>
+		 		</div>
+
+
+		 		<div class="col-lg-12 footertag">
+			 		<p>The World&rsquo;s Most Perfectly Cut Diamond</p>
+		 		</div>
+		 	</div><! --/row -->
+		 	<div class="row">
+		 	
+		 		
+		 		<div id="mobilefootnav" class="col-xs-12 center-block botpadding20">
+				  	<ul class="clearfix  list-inline center-block">
+		      			<li><a href="#">1.877.PERFECT (1.877.737.3328)</a></li>
+		      			<li><a href="#">About</a></li>
+		      			<li><a href="#">中文</a></li>
+		      			<li><a href="#">Press &amp; Events</a></li>
+		      			<li><a href="#">Careers</a></li>
+		      			<li><a href="#">Terms &amp; Conditions</a></li>
+		      			<li><a href="#">Privacy Policy</a></li>
+		      			<li><a href="#">Retailer Login</a></li>
+		      			<li><a href="#">Contact Us</a></li>
+		      			<li><a href="#">Sitemap</a></li>
+		      		</ul>
+		 		</div>
+		 		
+		 	</div>
+<!-- 	 	</div> -->
+	 	
+	 	
+	 	
+	 <div class="socialicons col-xs-12">
+	 	<ul class="social-icons center-block" style="text-align:center;">
+			<li>
+				<a title="Facebook" target="_blank" href="http://www.facebook.com/heartsonfire">
+				<img class="social_facebook" src="assets/img/social-media/FB.png">
+				</a>
+			</li>
+			<li>
+				<a title="Twitter" target="_blank" href="http://www.twitter.com/heartsonfire">
+				<img class="social_twitter" src="assets/img/social-media/twitter.png">
+				</a>
+			</li>
+			<li>
+				<a title="Pinterest" target="_blank" href="http://pinterest.com/heartsonfireco/">
+				<img class="social_pinterest" src="assets/img/social-media/pinterest.png">
+				</a>
+			</li>
+			<li>
+				<a title="YouTube" target="_blank" href="http://www.youtube.com/user/HeartsOnFireDiamond">
+				<img class="social_youtube" src="assets/img/social-media/youtube.png">
+				</a>
+			</li>
+			<li>
+				<a title="Tumblr" target="_blank" href="http://blog.heartsonfire.com/">
+				<img class="social_tumblr" src="assets/img/social-media/tumblr.png">
+				</a>
+			</li>
+			<li>
+				<a title="Blogger" target="_blank" href="http://www.secretsoflife.com/">
+				<img class="social_blogger" src="assets/img/social-media/blogger.png">
+				</a>
+			</li>
+			<li>
+				<a title="Google Plus" target="_blank" href="http://www.google.com/+heartsonfire">
+				<img class="social_googlePlus" src="assets/img/social-media/gplus.png">
+				</a>
+			</li>
+			<li>
+				<a title="" target="_blank" href="http://instagram.com/heartsonfireco#">
+				<img class="social_instagram" src="assets/img/social-media/insta.png">
+				</a>
+			</li>
+		</ul>
+	 </div>
+	 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- MOBILE NAVIGATION -->
+<script>
+	$(function(){
+		$('#mobileonlymenu').slicknav();
+	});
+</script>
+
+<!-- FLOWTYPE RESPONSIVE FONTS SETTINGS -->
+	<script src="assets/js/flowtypesettings.js"></script>
+
+
+    </body>
+    
+    </html>
