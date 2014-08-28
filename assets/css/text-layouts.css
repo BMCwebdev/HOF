@@ -119,33 +119,37 @@
 	 /* Custom, iPhone Retina */ 
 	@media only screen and (min-width : 320px) {
 		.block1 p {font-size: 14px;}
-		main-content .block1 {position: absolute; right: 1rem; top: -13rem;} 	
+		main-content .block1 {position: absolute; right: 1rem; top: -13rem;} 
+/*
+		.firstblock > .thumbnail > img, .firstblock > .thumbnail a > img {margin-left: -40px;}	
+		.firstblock {background-color: #F8F8F8;}
+*/
 
-		.block2-line1 {font-size: 18px;}
+		.block2-line1 {font-size: 14px;}
 		.block2-line2 {font-size: 10px;}
-		main-content .block2-line1 {position: absolute; left: 2rem; top: -26rem;} 	
+		main-content .block2-line1 {position: absolute; left: 0rem; top: -26rem;} 	
 
-		.block3-line1 {font-size: 18px;}
+		.block3-line1 {font-size: 14px;}
 		.block3-line2 {font-size: 10px;}
-		main-content .block3-line1 {position: absolute; left: 2rem; top: -16rem;} 	
+		main-content .block3-line1 {position: absolute; left: 0rem; top: -16rem;} 	
 
 		main-content .block4-line1 {display: none;} 	
 		
-		.mobile-text-block4-line1 {font-size: 18px;}
+		.mobile-text-block4-line1 {font-size: 14px;}
 		.mobile-text-block4-line2 {font-size: 10px;}
 		.mobile-text-block4 {display: block;}	
 		
-		.block5-line1 {font-size: 18px;}
+		.block5-line1 {font-size: 14px;}
 		.block5-line2 {font-size: 10px; }/* margin-bottom: 50px; */
 		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -6rem;} 
 				
-		.block6-line1 {font-size: 18px;}
+		.block6-line1 {font-size: 14px;}
 		.block6-line2 {font-size: 10px;}
-		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -20rem;} 	
+		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -34rem;} 	
 
 		main-content .block7-line1 {display: none;} 	
 		
-		.mobile-text-block7-line1 {font-size: 18px;}
+		.mobile-text-block7-line1 {font-size: 14px;}
 		.mobile-text-block7-line2 {font-size: 10px;}
 		.mobile-text-block7 {display: block;}	
 		
@@ -157,34 +161,34 @@
 
 	/* Extra Small Devices, Phones */ 
 	@media only screen and (min-width : 480px) {
-		.block1 p {font-size: 20px;}
+		.block1 p {font-size: 22px;}
 		main-content .block1 {position: absolute; right: 2rem; top: -18rem;} 	
 
-		.block2-line1 {font-size: 28px;}
+		.block2-line1 {font-size: 22px;}
 		.block2-line2 {font-size: 16px;}
-		main-content .block2-line1 {position: absolute; left: 1rem; top: -38rem;} 	
+		main-content .block2-line1 {position: absolute; left: 0rem; top: -38rem;} 	
 
-		.block3-line1 {font-size: 28px;}
+		.block3-line1 {font-size: 22px;}
 		.block3-line2 {font-size: 16px;}
-		main-content .block3-line1 {position: absolute; left: 1rem; top: -28rem;} 
+		main-content .block3-line1 {position: absolute; left: 0rem; top: -28rem;} 
 
 		main-content .block4-line1 {display: none;} 	
 		
-		.mobile-text-block4-line1 {font-size: 28px;}
+		.mobile-text-block4-line1 {font-size: 22px;}
 		.mobile-text-block4-line2 {font-size: 16px;}
 		.mobile-text-block4 {display: block;}	
 		
-		.block5-line1 {font-size: 28px;}
+		.block5-line1 {font-size: 22px;}
 		.block5-line2 {font-size: 16px;}
 		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -10rem;} 
 				
-		.block6-line1 {font-size: 28px;}
+		.block6-line1 {font-size: 22px;}
 		.block6-line2 {font-size: 16px;}
 		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -50rem;} 
 
 		main-content .block7-line1 {display: none;} 	
 		
-		.mobile-text-block7-line1 {font-size: 28px;}
+		.mobile-text-block7-line1 {font-size: 22px;}
 		.mobile-text-block7-line2 {font-size: 18px;}
 		.mobile-text-block7 {display: block;}	
 		
@@ -195,31 +199,31 @@
 		.block1 p {font-size: 28px;}
 		main-content .block1 {position: absolute; right: 2rem; top: -24rem;} 	
 
-		.block2-line1 {font-size: 32px;}
+		.block2-line1 {font-size: 28px;}
 		.block2-line2 {font-size: 20px;}
-		main-content .block2-line1 {position: absolute; left: 1rem; top: -44rem;} 	
+		main-content .block2-line1 {position: absolute; left: 0rem; top: -44rem;} 	
 
-		.block3-line1 {font-size: 32px;}
+		.block3-line1 {font-size: 28px;}
 		.block3-line2 {font-size: 20px;}
-		main-content .block3-line1 {position: absolute; left: 1rem; top: -33rem;} 	
+		main-content .block3-line1 {position: absolute; left: 0rem; top: -33rem;} 	
 
 		main-content .block4-line1 {display: none;} 	
 		
-		.mobile-text-block4-line1 {font-size: 32px;}
+		.mobile-text-block4-line1 {font-size: 28px;}
 		.mobile-text-block4-line2 {font-size: 20px;}
 		.mobile-text-block4 {display: block;}	
 		
-		.block5-line1 {font-size: 32px;}
+		.block5-line1 {font-size: 28px;}
 		.block5-line2 {font-size: 20px;}
 		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -13rem;} 
 				
-		.block6-line1 {font-size: 32px;}
+		.block6-line1 {font-size: 28px;}
 		.block6-line2 {font-size: 20px;}
 		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -64rem;} 	
 
 		main-content .block7-line1 {display: none;} 	
 		
-		.mobile-text-block7-line1 {font-size: 32px;}
+		.mobile-text-block7-line1 {font-size: 28px;}
 		.mobile-text-block7-line2 {font-size: 20px;}
 		.mobile-text-block7 {display: block;}	
 		
@@ -232,40 +236,40 @@
 
 	/* Small Devices, Tablets */
 	@media only screen and (min-width : 768px) {
-		.block1 p {font-size: 34px;}
+		.block1 p {font-size: 24px;}
 		main-content .block1 {position: absolute; right: 4rem; top: -30rem;} 	
 
-		.block2-line1 {font-size: 22px;}
+		.block2-line1 {font-size: 24px;}
 		.block2-line2 {font-size: 12px;}
-		main-content .block2-line1 {position: absolute; left: 1rem; top: -26rem;} 	
+		main-content .block2-line1 {position: absolute; left: 0rem; top: -26rem;} 	
 
-		.block3-line1 {font-size: 22px;}
+		.block3-line1 {font-size: 24px;}
 		.block3-line2 {font-size: 12px;}
-		main-content .block3-line1 {position: absolute; left: 1rem; top: -26rem;} 	
+		main-content .block3-line1 {position: absolute; left: 0rem; top: -26rem;} 	
 		
-		.block4-line1 {font-size: 22px;}
+		.block4-line1 {font-size: 24px;}
 		.block4-line2 {font-size: 12px;}
-		main-content .block4-line1 {display:block; position: absolute; left: 1rem; top: -19rem;} 
+		main-content .block4-line1 {display:block; position: absolute; left: 0rem; top: -19rem;} 
 		
 /*
-		.mobile-text-block4-line1 {font-size: 22px;}
+		.mobile-text-block4-line1 {font-size: 24px;}
 		.mobile-text-block4-line2 {font-size: 12px;}
 */
 		.mobile-text-block4 {display: none;}	
 		
-		.block5-line1 {font-size: 22px;}
+		.block5-line1 {font-size: 24px;}
 		.block5-line2 {font-size: 12px;}
-		main-content .block5-line1 {display:block; position: absolute; left: 1rem; top: -14rem;} 
+		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -14rem;} 
 				
-		.block6-line1 {font-size: 22px;}
+		.block6-line1 {font-size: 24px;}
 		.block6-line2 {font-size: 12px;}
 		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -32rem;} 	
 		
-		.block7-line1 {font-size: 22px;}
+		.block7-line1 {font-size: 24px;}
 		.block7-line2 {font-size: 12px;}
 		main-content .block7-line1 {display:block; position: absolute; left: 60%; top: -11rem;} 
 		
-		.mobile-text-block7-line1 {font-size: 32px;}
+		.mobile-text-block7-line1 {font-size: 24px;}
 		.mobile-text-block7-line2 {font-size: 20px;}
 		.mobile-text-block7 {display: none;}	
 		
@@ -278,16 +282,16 @@
 
 	/* Medium Devices, Desktops */
 	@media only screen and (min-width : 992px) {
-		.block1 p {font-size: 40px;}
+		.block1 p {font-size: 24px;}
 		main-content .block1 {position: absolute; right: 4rem; top: -35rem;} 	
 
 		.block2-line1 {font-size: 24px;}
 		.block2-line2 {font-size: 14px;}
-		main-content .block2-line1 {position: absolute; left: 1rem; top: -32rem;} 	
+		main-content .block2-line1 {position: absolute; left: 0rem; top: -32rem;} 	
 
 		.block3-line1 {font-size: 24px;}
 		.block3-line2 {font-size: 14px;}
-		main-content .block3-line1 {position: absolute; left: 1rem; top: -32rem;}
+		main-content .block3-line1 {position: absolute; left: 0rem; top: -32rem;}
 		
 		.block4-line1 {font-size: 24px;}
 		.block4-line2 {font-size: 14px;}
@@ -301,7 +305,7 @@
 		
 		.block5-line1 {font-size: 24px;}
 		.block5-line2 {font-size: 14px;}
-		main-content .block5-line1 {display:block; position: absolute; left: 1rem; top: -16rem;} 
+		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -16rem;} 
 				
 		.block6-line1 {font-size: 24px;}
 		.block6-line2 {font-size: 14px;}
@@ -320,20 +324,20 @@
 
 	/* Large Devices, Wide Screens */
 	@media only screen and (min-width : 1200px) {
-		.block1 p {font-size: 44px;}
+		.block1 p {font-size: 28px;}
 		main-content .block1 {position: absolute; right: 4rem; top: -37rem;} 
 			
 		.block2-line1 {font-size: 28px;}
 		.block2-line2 {font-size: 16px;}
-		main-content .block2-line1 {position: absolute; left: 1rem; top: -34rem;} 	
+		main-content .block2-line1 {position: absolute; left: 0rem; top: -34rem;} 	
 
 		.block3-line1 {font-size: 28px;}
 		.block3-line2 {font-size: 16px;}
-		main-content .block3-line1 {position: absolute; left: 1rem; top: -34rem;} 	
+		main-content .block3-line1 {position: absolute; left: 0rem; top: -34rem;} 	
 		
 		.block4-line1 {font-size: 28px;}
 		.block4-line2 {font-size: 16px;}
-		main-content .block4-line1 {display:block; position: absolute; left: 1rem; top: -23rem;} 
+		main-content .block4-line1 {display:block; position: absolute; left: 0rem; top: -23rem;} 
 		
 /*
 		.mobile-text-block4-line1 {font-size: 28px;}
@@ -343,7 +347,7 @@
 		
 		.block5-line1 {font-size: 28px;}
 		.block5-line2 {font-size: 16px;}
-		main-content .block5-line1 {display:block; position: absolute; left: 1rem; top: -20rem;} 
+		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -20rem;} 
 		
 		.block6-line1 {font-size: 28px;}
 		.block6-line2 {font-size: 16px;}
@@ -361,12 +365,12 @@
 		
 	/* Extra Large Devices, Extra Wide Screens */
 	@media only screen and (min-width : 1460px) {
-		.block1 p {font-size: 55px;}
+		.block1 p {font-size: 32px;}
 		main-content .block1 {position: absolute; right: 10rem; top: -50rem;} 	
 
 		.block2-line1 {font-size: 32px;}
 		.block2-line2 {font-size: 20px;}
-		main-content .block2-line1 {position: absolute; left: 1rem; top: -38rem;} 	
+		main-content .block2-line1 {position: absolute; left: 0rem; top: -38rem;} 	
 
 		.block3-line1 {font-size: 32px;}
 		.block3-line2 {font-size: 20px;}
