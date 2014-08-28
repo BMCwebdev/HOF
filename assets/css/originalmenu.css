@@ -1547,7 +1547,7 @@ img {
 .caption, .news-date {
     color: #a4a4a4;
     font-size: 0.9em;
-    font-style: italic;
+/*     font-style: italic; */
 }
 .clear {
     clear: both;
@@ -1710,7 +1710,7 @@ h2 {
 }
 #defaultFooter {
     display: block;
-    height: 125px;
+    height: 100px;
     min-width: 1290px;
     z-index: 100;
 }
@@ -1724,6 +1724,7 @@ h2 {
     overflow: hidden;
     padding: 0;
     width: 100%;
+    height: 100%;
 }
 #footer a:hover {
     color: #000;
@@ -1732,6 +1733,7 @@ h2 {
 #subFooter {
     margin: 0 auto;
     padding-top: 8px;
+    padding-bottom: 40px;
 }
 #subFooter div {
     margin: 0;
@@ -2678,7 +2680,7 @@ a.FBButton span span {
     z-index: 10000 !important;
 }
 .sepChar {
-    padding: 0 7px;
+    padding: 0px;
 }
 .pGriditemSearch {
     border: 0 none;
@@ -2901,6 +2903,14 @@ input.tbSearch[type="text"] {
     height: 17px;
     width: 145px;
 }
+
+.emailSignUpBox2 {
+    color: silver;
+    font-size: 11px;
+    height: 27px;
+    width: 50%;
+    margin-left: 8%;
+}
 .divSearchWithCategories {
     float: left;
     position: absolute;
@@ -3022,8 +3032,8 @@ input.tbSearch[type="text"] {
 .footer_TWMPCD {
     background-image: url("/RequestReduceContent/03c3f21b8a1ab0571c59c3bb1e2ba92b-0c6202961ef84be546f492c9772ed579.png");
     background-position: 0 0;
-    height: 15px;
-    width: 419px;
+/*     height: 15px; */
+    width: 25em;
 }
 .HOF_HeaderLogo {
     background-image: url("/RequestReduceContent/03c3f21b8a1ab0571c59c3bb1e2ba92b-0c6202961ef84be546f492c9772ed579.png");
@@ -4809,4 +4819,39 @@ html > body .RadComboBoxDropDown .rcbItem, html > body .RadComboBoxDropDown .rcb
 .RadComboBoxDropDown_Default .rcbMoreResults a {
     background-position: -157px -94px;
 }
+
+/*
+.RadMenu .rmShadows .rmTopShadowRight, .rmShadows .rmGroup .rmTopShadowRight {
+    background-image: url("http://www.heartsonfire.com/css/Skins/Common/Menu/ShadowRight.png");
+    background-position: 100% 0;
+    right: -5px;
+}
+.RadMenu .rmShadows .rmTopShadowRight, .rmShadows .rmGroup .rmTopShadowRight {
+    background-image: url("http://www.heartsonfire.com/css/Skins/Common/Menu/ShadowRight.png");
+    background-position: 100% 0;
+    right: -5px;
+}
+.RadMenu .rmTopRight {
+    background-position: 100% 0;
+    height: 100%;
+    right: -4px;
+    top: 0;
+}
+.RadMenu .rmTopShadowRight, .RadMenu .rmBottomShadowLeft, .RadMenu .rmBottomShadowRight {
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+.RadMenu .rmTopFix, .RadMenu .rmTopRight, .RadMenu .rmBottomFix, .RadMenu .rmBottomLeft, .RadMenu .rmBottomRight {
+    font-size: 0;
+    height: 4px;
+    list-style-position: outside;
+    list-style-type: none;
+    position: absolute;
+    width: 4px;
+}
+.RadMenu .rmTopRight, .RadMenu .rmBottomLeft, .RadMenu .rmBottomRight, .RadMenu .rmRoundedCorners ul.rmGroup, .rmRoundedCorners ul.rmGroup, .rmRoundedCorners ul.rmGroup ul.rmGroup, .RadMenu .rmRoundedCorners .rmMultiColumn {
+    background-position: 0 0;
+    border: 0 none;
+}
+*/
 </style>

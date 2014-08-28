@@ -1,0 +1,189 @@
+.skybar {
+    background-image: url("/assets/images/UtilityNavBar_BG.jpg");
+    background-repeat: repeat-x;
+    display: block;
+    height: 30px;
+    margin: 0;
+    width: 100%;
+    color:#ffffff;
+    font-size: 1em;
+}
+.skybar li {
+	font-size: 10px;
+	margin-top: 5px;
+}
+.skybar li:hover {
+	font-size: 10px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+.navbar-fixed-top {
+    border-width: 0 0 1px;
+    top: 0;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1030;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	min-height: 1px;
+}
+.navbar-form {
+	margin: 0px 20px 0px 15px;
+    padding: 0px;
+}
+
+.navbar-form .form-control {
+	height: 20px;
+	font-size: 10px;
+}
+
+.form-control {
+	padding: 0px;
+	margin-top: 5px;
+}
+
+.yamm {
+/* 	margin-top: 30px; */
+border: none;
+}
+
+	@media only screen and (max-width:768px) {
+	.yammlogo {
+		display: none;
+	}
+	.skybar {
+		display: none;
+	}
+	.navbar-default {
+    background-image: url("/assets/images/UtilityNavBar_BG_mobile.jpg");
+    background-repeat: repeat-x;
+    }
+    .navbar-toggle {
+    background-image: url("/assets/images/UtilityNavBar_BG_mobile.jpg");
+    }
+    .navbar-toggle:hover, .navbar-toggle:active {
+    background-image: url("/assets/images/UtilityNavBar_BG_mobile_hover.jpg");
+    }
+    .nav-justified > li > a {
+    text-align: left;
+    margin-left:20px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    border: none;
+	    margin-right:0px;
+    }
+}
+
+	@media only screen and (min-width:768px) {
+	.mobilelogo {
+		display: none;
+	}
+	#mobileclearfix.clearfix {
+		display: none;
+	}
+	.search-container {
+		display: none;
+	}
+}
+
+	@media only screen and (min-width:765px and max-width : 1100px) {
+		.navbar-nav > li > a {
+			font-size: 10px;
+		}
+}
+	@media only screen and (min-width:1290px) {
+		.mobilebreak {
+		display: none;
+		}
+		#footermobile {
+			display: none;
+		}
+}
+	@media only screen and (max-width:1290px) {
+	#footer {
+		display: none;
+	}
+	#collapsingFooter {
+		display: none;
+	}
+}
+		
+	.yammlogo {
+    background-image: url("/assets/images/logo.png");
+    background-position: center 20px;
+    background-repeat: no-repeat;
+    background-color: #f8f8f8;
+    height: 60px;
+    margin-top:30px;
+}
+
+.navbar-nav > li {
+    float: none;
+	font-size: 12px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.navbar-nav {
+    float: none;
+}
+
+.nav-justified > .dropdown .dropdown-menu {
+    left: 0;
+    right: 0;
+    top:inherit;
+}
+.navbar-nav > li:hover, .navbar-nav > li:active  {
+/*
+	text-decoration: underline;
+	text-decoration-color: #362c66;
+	-moz-text-decoration-color: #362c66;
+*/
+	border-bottom:5px solid #362c66;
+}
+
+.nav-justified > .dropdown .dropdown-menu {
+    top: 70px;
+}
+
+.nav > li > a {
+    padding: 10px 0;
+    }
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.search-container {
+	background-color: #e4e4e4;
+    padding: 10px;
+}
+
+.socialicons ul {
+	padding-left: 0px;
+}
+
+.socialicons ul li {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.footertag img {
+	width:100%;
+	padding: 20px 5px 20px 5px;
+	max-width: 575px;
+}

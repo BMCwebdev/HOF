@@ -1,0 +1,59 @@
+#line {
+background-image: -moz-radial-gradient(center center, circle, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -o-radial-gradient(center center, 100px 100px, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -webkit-radial-gradient(center center, 100px 100px, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: radial-gradient(center center, 100px 100px, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+height: 1px;
+width: 100%;
+}
+
+#block6line {
+background-image: -moz-radial-gradient(center center, circle, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -o-radial-gradient(center center, 100px 100px, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -webkit-radial-gradient(center center, 100px 100px, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: radial-gradient(center center, 100px 100px, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+height: 1px;
+width: 50%;
+}
+
+#morenaline {
+background-image: -moz-linear-gradient(left, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -o-linear-gradient(left, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -webkit-linear-gradient(left, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: linear-gradient(left, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+height: 1px;
+width: 40%;
+}
+
+#morenalinewhite {
+background-image: -moz-radial-gradient(center center, circle, #d3d3d3 0%, #d3d3d3 0%, #fff 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -o-radial-gradient(center center, 100px 100px, #d3d3d3 0%, #d3d3d3 0%, #fff 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -webkit-radial-gradient(center center, 100px 100px, #d3d3d3 0%, #d3d3d3 0%, #fff 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: radial-gradient(center center, 100px 100px, #d3d3d3 0%, #d3d3d3 0%, #fff 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+height: 1px;
+width: 25%;
+}
+
+#whiteline {
+background-image: -moz-linear-gradient(left, #d3d3d3 0%, #d3d3d3 0%, #fff 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -o-linear-gradient(left, #d3d3d3 0%, #d3d3d3 0%, #fff 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -webkit-linear-gradient(left, #d3d3d3 0%, #d3d3d3 0%, #fff 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: linear-gradient(left, #d3d3d3 0%, #d3d3d3 0%, #fff 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+height: 1px;
+width: 80%;
+margin-bottom: 8%;
+}
+
+#blackline {
+background-image: -moz-linear-gradient(left, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -o-linear-gradient(left, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: -webkit-linear-gradient(left, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+background-image: linear-gradient(left, #fff 0%, #d3d3d3 0%, #000 0%, rgba(255,255,255,0) 100%); /* layer fill content */
+height: 1px;
+width: 60%;
+}
+
+.aerialline {
+	margin-left: auto;
+	margin-right: auto;
+}
