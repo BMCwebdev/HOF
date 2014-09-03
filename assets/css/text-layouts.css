@@ -165,31 +165,31 @@
 		main-content .block1 {position: absolute; right: 2rem; top: -18rem;} 	
 
 		.block2-line1 {font-size: 22px;}
-		.block2-line2 {font-size: 16px;}
+		.block2-line2 {font-size: 12px;}
 		main-content .block2-line1 {position: absolute; left: 0rem; top: -38rem;} 	
 
 		.block3-line1 {font-size: 22px;}
-		.block3-line2 {font-size: 16px;}
+		.block3-line2 {font-size: 12px;}
 		main-content .block3-line1 {position: absolute; left: 0rem; top: -28rem;} 
 
 		main-content .block4-line1 {display: none;} 	
 		
 		.mobile-text-block4-line1 {font-size: 22px;}
-		.mobile-text-block4-line2 {font-size: 16px;}
+		.mobile-text-block4-line2 {font-size: 12px;}
 		.mobile-text-block4 {display: block;}	
 		
 		.block5-line1 {font-size: 22px;}
-		.block5-line2 {font-size: 16px;}
+		.block5-line2 {font-size: 10px;}
 		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -10rem;} 
 				
 		.block6-line1 {font-size: 22px;}
-		.block6-line2 {font-size: 16px;}
+		.block6-line2 {font-size: 12px;}
 		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -50rem;} 
 
 		main-content .block7-line1 {display: none;} 	
 		
 		.mobile-text-block7-line1 {font-size: 22px;}
-		.mobile-text-block7-line2 {font-size: 18px;}
+		.mobile-text-block7-line2 {font-size: 12px;}
 		.mobile-text-block7 {display: block;}	
 		
 	}
@@ -200,31 +200,31 @@
 		main-content .block1 {position: absolute; right: 2rem; top: -24rem;} 	
 
 		.block2-line1 {font-size: 28px;}
-		.block2-line2 {font-size: 20px;}
+		.block2-line2 {font-size: 12px;}
 		main-content .block2-line1 {position: absolute; left: 0rem; top: -44rem;} 	
 
 		.block3-line1 {font-size: 28px;}
-		.block3-line2 {font-size: 20px;}
+		.block3-line2 {font-size: 12px;}
 		main-content .block3-line1 {position: absolute; left: 0rem; top: -33rem;} 	
 
 		main-content .block4-line1 {display: none;} 	
 		
 		.mobile-text-block4-line1 {font-size: 28px;}
-		.mobile-text-block4-line2 {font-size: 20px;}
+		.mobile-text-block4-line2 {font-size: 12px;}
 		.mobile-text-block4 {display: block;}	
 		
 		.block5-line1 {font-size: 28px;}
-		.block5-line2 {font-size: 20px;}
+		.block5-line2 {font-size: 10px;}
 		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -13rem;} 
 				
 		.block6-line1 {font-size: 28px;}
-		.block6-line2 {font-size: 20px;}
+		.block6-line2 {font-size: 12px;}
 		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -64rem;} 	
 
 		main-content .block7-line1 {display: none;} 	
 		
 		.mobile-text-block7-line1 {font-size: 28px;}
-		.mobile-text-block7-line2 {font-size: 20px;}
+		.mobile-text-block7-line2 {font-size: 12px;}
 		.mobile-text-block7 {display: block;}	
 		
 	}
@@ -258,7 +258,7 @@
 		.mobile-text-block4 {display: none;}	
 		
 		.block5-line1 {font-size: 24px;}
-		.block5-line2 {font-size: 12px;}
+		.block5-line2 {font-size: 10px;}
 		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -14rem;} 
 				
 		.block6-line1 {font-size: 24px;}
@@ -270,7 +270,7 @@
 		main-content .block7-line1 {display:block; position: absolute; left: 60%; top: -11rem;} 
 		
 		.mobile-text-block7-line1 {font-size: 24px;}
-		.mobile-text-block7-line2 {font-size: 20px;}
+		.mobile-text-block7-line2 {font-size: 12px;}
 		.mobile-text-block7 {display: none;}	
 		
 	}
@@ -286,15 +286,15 @@
 		main-content .block1 {position: absolute; right: 4rem; top: -35rem;} 	
 
 		.block2-line1 {font-size: 24px;}
-		.block2-line2 {font-size: 14px;}
+		.block2-line2 {font-size: 12px;}
 		main-content .block2-line1 {position: absolute; left: 0rem; top: -32rem;} 	
 
 		.block3-line1 {font-size: 24px;}
-		.block3-line2 {font-size: 14px;}
+		.block3-line2 {font-size: 12px;}
 		main-content .block3-line1 {position: absolute; left: 0rem; top: -32rem;}
 		
 		.block4-line1 {font-size: 24px;}
-		.block4-line2 {font-size: 14px;}
+		.block4-line2 {font-size: 12px;}
 		main-content .block4-line1 {display:block; position: absolute; left: 1rem; top: -19rem;} 
 		
 /*
@@ -304,19 +304,19 @@
 		.mobile-text-block4 {display: none;}	
 		
 		.block5-line1 {font-size: 24px;}
-		.block5-line2 {font-size: 14px;}
+		.block5-line2 {font-size: 12px;}
 		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -16rem;} 
 				
 		.block6-line1 {font-size: 24px;}
-		.block6-line2 {font-size: 14px;}
+		.block6-line2 {font-size: 12px;}
 		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -40rem;}
 		
 		.block7-line1 {font-size: 24px;}
-		.block7-line2 {font-size: 14px;}
+		.block7-line2 {font-size: 12px;}
 		main-content .block7-line1 {display:block; position: absolute; left: 60%; top: -14rem;} 
 		
 		.mobile-text-block7-line1 {font-size: 32px;}
-		.mobile-text-block7-line2 {font-size: 20px;}
+		.mobile-text-block7-line2 {font-size: 12px;}
 		.mobile-text-block7 {display: none;}	
 		
 
@@ -328,15 +328,15 @@
 		main-content .block1 {position: absolute; right: 4rem; top: -37rem;} 
 			
 		.block2-line1 {font-size: 28px;}
-		.block2-line2 {font-size: 16px;}
+		.block2-line2 {font-size: 12px;}
 		main-content .block2-line1 {position: absolute; left: 0rem; top: -34rem;} 	
 
 		.block3-line1 {font-size: 28px;}
-		.block3-line2 {font-size: 16px;}
+		.block3-line2 {font-size: 12px;}
 		main-content .block3-line1 {position: absolute; left: 0rem; top: -34rem;} 	
 		
 		.block4-line1 {font-size: 28px;}
-		.block4-line2 {font-size: 16px;}
+		.block4-line2 {font-size: 12px;}
 		main-content .block4-line1 {display:block; position: absolute; left: 0rem; top: -23rem;} 
 		
 /*
@@ -346,19 +346,19 @@
 		.mobile-text-block4 {display: none;}	
 		
 		.block5-line1 {font-size: 28px;}
-		.block5-line2 {font-size: 16px;}
+		.block5-line2 {font-size: 12px;}
 		main-content .block5-line1 {display:block; position: absolute; left: 0rem; top: -20rem;} 
 		
 		.block6-line1 {font-size: 28px;}
-		.block6-line2 {font-size: 16px;}
+		.block6-line2 {font-size: 12px;}
 		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -48rem;} 	
 		
 		.block7-line1 {font-size: 28px;}
-		.block7-line2 {font-size: 16px;}
+		.block7-line2 {font-size: 12px;}
 		main-content .block7-line1 {display:block; position: absolute; left: 60%; top: -16rem;} 
 		
 		.mobile-text-block7-line1 {font-size: 32px;}
-		.mobile-text-block7-line2 {font-size: 20px;}
+		.mobile-text-block7-line2 {font-size: 12px;}
 		.mobile-text-block7 {display: none;}	
 		
 	}
@@ -369,15 +369,15 @@
 		main-content .block1 {position: absolute; right: 10rem; top: -50rem;} 	
 
 		.block2-line1 {font-size: 32px;}
-		.block2-line2 {font-size: 20px;}
+		.block2-line2 {font-size: 12px;}
 		main-content .block2-line1 {position: absolute; left: 0rem; top: -38rem;} 	
 
 		.block3-line1 {font-size: 32px;}
-		.block3-line2 {font-size: 20px;}
+		.block3-line2 {font-size: 12px;}
 		main-content .block3-line1 {position: absolute; left: 10rem; top: -38rem;} 	
 		
 		.block4-line1 {font-size: 32px;}
-		.block4-line2 {font-size: 20px;}
+		.block4-line2 {font-size: 12px;}
 		main-content .block4-line1 {display:block; position: absolute; left: 1rem; top: -25rem;} 
 				
 /*
@@ -387,20 +387,20 @@
 		.mobile-text-block4 {display: none;}	
 		
 		.block5-line1 {font-size: 32px;}
-		.block5-line2 {font-size: 20px;}
+		.block5-line2 {font-size: 12px;}
 		main-content .block5-line1 {display:block; position: absolute; left: 1rem; top: -23rem;} 
 				
 		
 		.block6-line1 {font-size: 32px;}
-		.block6-line2 {font-size: 20px;}
+		.block6-line2 {font-size: 12px;}
 		main-content .block6-line1 {position: absolute; left:0px; right:0px; top: -58rem;} 	
 		
 		.block7-line1 {font-size: 32px;}
-		.block7-line2 {font-size: 20px;}
+		.block7-line2 {font-size: 12px;}
 		main-content .block7-line1 {display:block; position: absolute; left: 61%; top: -20rem;} 
 				
 		.mobile-text-block7-line1 {font-size: 32px;}
-		.mobile-text-block7-line2 {font-size: 20px;}
+		.mobile-text-block7-line2 {font-size: 12px;}
 		.mobile-text-block7 {display: none;}	
 		
 	}
@@ -423,9 +423,12 @@
 }
 */
 		
-	@media only screen and (max-width : 768px) {
+	@media only screen and (max-width : 767px) {
 	.extendedgray{
 		background-color: #f8f8f8;
 		padding-bottom: 150px;
 		}
+}
+.Avenir {
+	line-height: 20px;
 }

@@ -53,6 +53,7 @@
 .yamm {
 /* 	margin-top: 30px; */
 border: none;
+border-bottom: 1px solid #cdcdcd;
 }
 
 	@media only screen and (max-width:768px) {
@@ -99,7 +100,7 @@ border: none;
 			font-size: 10px;
 		}
 }
-	@media only screen and (min-width:1290px) {
+	@media only screen and (min-width:768px) {
 		.mobilebreak {
 		display: none;
 		}
@@ -108,10 +109,12 @@ border: none;
 		}
 }
 	@media only screen and (max-width:1290px) {
-	#footer {
+	#collapsingFooter {
 		display: none;
 	}
-	#collapsingFooter {
+}
+	@media only screen and (max-width:768px) {
+	.desktopfooter {
 		display: none;
 	}
 }
@@ -136,8 +139,8 @@ border: none;
 }
 
 .nav-justified > .dropdown .dropdown-menu {
-    left: 0;
-    right: 0;
+    left: 5%;
+    right: 5%;
     top:inherit;
 }
 .navbar-nav > li:hover, .navbar-nav > li:active  {
@@ -145,16 +148,17 @@ border: none;
 	text-decoration: underline;
 	text-decoration-color: #362c66;
 	-moz-text-decoration-color: #362c66;
-*/
 	border-bottom:5px solid #362c66;
+*/
 }
 
 .nav-justified > .dropdown .dropdown-menu {
-    top: 70px;
+    top: 30px;
 }
 
 .nav > li > a {
-    padding: 10px 0;
+    padding: 10px 0px 0px 0px;
+    text-transform: uppercase;
     }
 .right-inner-addon {
     position: relative;
@@ -186,4 +190,168 @@ border: none;
 	width:100%;
 	padding: 20px 5px 20px 5px;
 	max-width: 575px;
+}
+
+.navbar-nav > li {
+    clear: none;
+    float: left;
+    font-size: 10px;
+    list-style: none outside none;
+    padding: 0;
+    width: auto;
+    padding: 0 40px 0 0 !important;
+    }
+    
+    
+.nav > li > a {
+    cursor: default;
+    display: block;
+    float: left;
+    outline: 0 none navy;
+    text-transform: uppercase;
+    width: auto;
+    }
+
+#themegamenu {
+	margin: 0 auto;
+	max-width: 985px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: none;
+	border: none;
+}
+
+.navbar-brand {
+    height: auto;
+    }
+    
+    
+@media only screen and (min-width:768px) {
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    border-bottom: 2px solid #362c66;
+    }
+    
+#themegamenu > .dropdown > .dropdown-menu {
+	    background-color: rgba(255,255,255,0.9);
+/* 	    position: absolute; */
+    }
+    
+.navbar-default .navbar-nav > li > a {
+    border-bottom: 2px solid #f8f8f8;
+    }
+    
+.rmVertical .rmGroup .rmLevel1 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.rmVertical.rmGroup.rmLevel1 {
+	list-style-type: none;
+}
+
+.navbar-toggle {
+    float: left;
+    }
+.mobilelogo {
+	width: 100%;
+}
+.mobilelogocenter {
+	float: none;
+	margin: 0px auto;
+	display: block;
+}
+/*
+button.navbar-toggle {
+	background-image: url("/assets/images/nav-button-up.png");
+    background-size: 100% auto;
+    display: block;
+}
+*/
+
+button.navbar-toggle img {
+width: 100%;
+}
+
+.navbar-toggle {
+    background-image: url("/assets/images/nav-button-up.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    height: 45px;
+    margin-left: 15px;
+    width: 66px;
+    }
+    
+.navbar-toggle:hover, .navbar-toggle:active {
+    background-image: url("/assets/images/nav-button-down.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    height: 45px;
+    margin-left: 15px;
+    width: 66px;
+    background-color: none !important;
+    }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: none !important;
+}
+
+#mobileclearfix {
+	border-bottom: solid 1px #d4d4d4;
+}
+.mobilelogo {
+    min-width: 200px;
+    width: 100%;
+}
+.mobilecarrot {
+	float: right;
+}
+
+@media only screen and (max-width:768px) {
+#mobileclearfix {
+	background-image: url('/assets/images/arrow.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	display: block; /* make the link background clickable */
+/* 	margin-right: 15px; */
+	height: 40px;
+	margin-right: 15px;
+	background-size:auto 20px;
+}
+}
+
+
+
+/* ============================================FOOTER==================================== */
+
+#defaultFooter {
+	display: block;
+	width: 100%;
+}
+.footerlogostyle {
+	width: 100%;
+	max-width: 576px;
+}
+.selectpicker {
+	width: 100%;
+}
+.emailSignUpBox {
+    color: silver;
+    font-size: 11px;
+    height: 25px;
+    width: 100%;
+}
+.emailsignup {
+	padding-right: 10px;
+}
+.state-country {
+	padding-left: 10px;
+}
+.desktopfooter {
+	padding-top: 20px;
+	padding-bottom: 4%;
 }

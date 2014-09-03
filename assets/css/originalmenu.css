@@ -3030,10 +3030,10 @@ input.tbSearch[type="text"] {
     background: url("http://www.heartsonfire.com/images/GlobalSpriteSheet.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .footer_TWMPCD {
-    background-image: url("/RequestReduceContent/03c3f21b8a1ab0571c59c3bb1e2ba92b-0c6202961ef84be546f492c9772ed579.png");
+    background-image: url("/assets/images/footerlogo.png");
     background-position: 0 0;
 /*     height: 15px; */
-    width: 25em;
+    width: auto;
 }
 .HOF_HeaderLogo {
     background-image: url("/RequestReduceContent/03c3f21b8a1ab0571c59c3bb1e2ba92b-0c6202961ef84be546f492c9772ed579.png");
